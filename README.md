@@ -1,4 +1,4 @@
-# PaleHeartDropRatesDataset
+# Pale Heart Drop Rates Dataset
 <p>A dataset I decided to put together while farming.</p>
 <br></br>
 <p>Destiny 2 is a game where the developers like obscuring the numbers behind, well - everything. I figured it would be interesting for data exploration, as well as for finding any hidden correlations between variables (which I already have suspicions about). I intend to upload my findings after I have gathered more data points, especially because some of the rates are so low. </p>
