@@ -29,3 +29,7 @@
 | AO  | Short for "Area of Overthrow". There's only three which correspond to the in game areas.  |
 
 Analysis will be attached below in the future.
+
+To note, since there has been <a href="https://www.bungie.net/7/en/News/article/twid-07-25-2024">an announcement</a> that drop rates from chests are going to be reduced, a separate dataset will be created post August patch. 
+
+I also intend to create a dataset that includes all class item perk combinations in order to check if the rolls are weighted.
