@@ -5,7 +5,7 @@
 
 ## Dataset
 
-<p> There are two datasets, both comma seperated values (csv) files. PHDRC.csv consists of 8 columns/variables and outlines drops for chests opened in the pale heart. PHDRS.csv consists of 5 columns/variables and outlines drops for stigmata of the witness. It is encoded in the Western Europe Windows 1251/WinLatin 1 character set but it seems to open fine in UTF-8. </p>
+<p> There are two datasets, both comma seperated values (csv) files. PHDRC.csv consists of 8 columns/variables and outlines drops for chests opened in the pale heart. PHDRS.csv consists of 4 columns/variables and outlines drops for stigmata of the witness. It is encoded in the Western Europe Windows 1251/WinLatin 1 character set but it seems to open fine in UTF-8. </p>
 
 ### PHDRC.csv
 | Variable  | Details |
