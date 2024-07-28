@@ -15,7 +15,7 @@
 | GE  | Short for "Gunsmith Engram".  A type of drop that can be obtained by opening a chest but also drops everywhere in the system. This field might be influenced by drops obtained not on the pale heart.|
 | CI  | Short for "Class Item". It refers to the exotic class items (Solipsism, Relativism, Stoicism). A binary field where a 1 denotes a drop.  |
 | Mod  | Whether a mod that can be used on the traveler was obtained. A binary field where a 1 denotes a drop.  |
-| Type  | The type of chest that was opened. "WC" stands for "World Chest", "HVT" stands for "High Value Target" and "EC" stands for "Encounter Chest".  |
+| Type  | The type of chest that was opened. "WC" stands for "World Chest", "HVT" stands for "High Value Target", "AB" stands for Area Boss and "EC" stands for "Encounter Chest". HVT are roaming bosses that may be named or unnamed. Area Bosses are typically named and are referred to in the pathfinder. |
 | OL  | Short for "Overthrow Level". The level of the overthrow event at which the chest was opened. Overthrow levels from 1-3 correspond to their in-game level, while OL 4 is the boss phase and OL 5 is the intermission period after the boss is defeated.  |
 | AO  | Short for "Area of Overthrow". There's only three which correspond to the in game areas.  |
 
