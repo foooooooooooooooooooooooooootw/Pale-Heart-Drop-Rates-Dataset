@@ -5,7 +5,7 @@
 
 ## Dataset
 
-<p> There are two datasets, both comma seperated values (csv) files. PHDRC.csv consists of 8 columns/variables and outlines drops for chests opened in the pale heart. PHDRS.csv consists of 4 columns/variables and outlines drops for stigmata of the witness. It is encoded in the Western Europe Windows 1251/WinLatin 1 character set but it seems to open fine in UTF-8. </p>
+<p> There are two datasets, both comma seperated values (csv) files. PHDRC.csv consists of 8 columns/variables and outlines drops for chests opened in the pale heart. PHDRS.csv consists of 4 columns/variables and outlines drops for stigmata of the witness. It was encoded in the Western Europe Windows 1251/WinLatin 1 character set but it seems to open fine in UTF-8. </p>
 
 ### PHDRC.csv
 | Variable  | Details |
@@ -32,4 +32,4 @@ Analysis will be attached below in the future.
 
 To note, since there has been <a href="https://www.bungie.net/7/en/News/article/twid-07-25-2024">an announcement</a> that drop rates from chests are going to be reduced, a separate dataset will be created post August patch. 
 
-I also intend to create a dataset that includes all class item perk combinations in order to check if the rolls are weighted.
+I also intend to create a dataset that includes all class item perk combinations in order to check if the rolls are weighted, as well as perk/frame combinations for ergo sum to see if those are weighted as well. 
