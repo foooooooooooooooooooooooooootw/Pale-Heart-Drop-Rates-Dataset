@@ -3,7 +3,12 @@
 <br></br>
 <p>Destiny 2 is a game where the developers like obscuring the numbers behind, well - everything. I figured it would be interesting for data exploration, as well as for finding any hidden correlations between variables (which I already have suspicions about). I intend to upload my findings after I have gathered more data points, especially because some of the rates are so low. I did not use any macros to farm these, and it's been a one man job. </p>
 
-## Dataset
+# Table of contents
+1. [Dataset Information](#Dataset)
+2. [Analysis & Insights](#Analysis)
+3. [Postscript](#Postscript)
+
+## Dataset <a name="Dataset"></a>
 
 <p> There are two datasets, both comma seperated values (csv) files. PHDRC.csv consists of 8 columns/variables and outlines drops for chests opened in the pale heart. PHDRS.csv consists of 4 columns/variables and outlines drops for stigmata of the witness. The dataset should be skewed towards earlier overthrow levels simply because it always starts from 1. It was encoded in the Western Europe Windows 1251/WinLatin 1 character set but it seems to open fine in UTF-8. </p>
 
@@ -28,7 +33,11 @@
 | OL  | Short for "Overthrow Level". The level of the overthrow event at which the chest was opened. Overthrow levels from 1-3 correspond to their in-game level, while OL 4 is the boss phase and OL 5 is the intermission period after the boss is defeated.  |
 | AO  | Short for "Area of Overthrow". There's only three which correspond to the in game areas.  |
 
-Analysis will be attached below in the future.
+## Analysis & Insights <a name="Analysis"></a>
+
+Analysis will be attached here.
+
+## Postscript <a name="Postscript"></a>
 
 To note, since there has been <a href="https://www.bungie.net/7/en/News/article/twid-07-25-2024">an announcement</a> that drop rates from chests are going to be reduced, a separate dataset will be created post August patch. 
 
