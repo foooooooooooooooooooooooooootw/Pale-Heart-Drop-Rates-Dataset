@@ -35,6 +35,7 @@
 | AO  | Short for "Area of Overthrow". There's only three which correspond to the in game areas.  |
 
 ## Exploratory Data Analysis <a name="Exploration"></a>
+### PHDRC.csv
 The dataset is heavily skewed towards world chests, which is expected since world chests are much more abundant than any other type of chest.
 
 <img title="chest distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/chest%20distribution.png">
@@ -55,6 +56,36 @@ Finally, the dataset has the most chests opened in the blooming, while the amoun
 - Overall, gunsmith engrams are almost double the drop rate of pale heart engrams, at 17.07%.
 - Overall, class items drop at about 2.6% chance.
 - Overall, there is a 5.1% chance of getting a mod.
+
+### Glimmer drop rates compared
+
+Glimmer amounts are discrete as shown in the notebook. Regardless, this is the distribution:
+
+<img title="chest distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/glimmer%20distribution.png">
+
+The median is 660, the mode is 693 & the mean is 575.
+
+| Glimmer Amounts  | Drop Rates |
+| ------------- | ------------- |
+| 693 | 26.8% |
+| 660  | 18.1% |
+| 726  | 15.1%  |
+| 264  | 11.2% |
+| 231 | 6.4% |
+| 495  | 5.8%  |
+| 297  | 5.4%  |
+| 627  | 4%  |
+| 759 | 3.5% |
+| 330 | 0.8%  |
+| 825  | 0.8%  |
+| 528 | 0.7%  |
+| 462  | 0.5%  |
+| 792  | 0.4%  |
+| 0  | 0.3%  |
+| 497  | 0.1% |
+| 315  | 0.1% |
+
+Generally, you'd have a 68.7% of getting an amount above the mean. 
 
 ### Pale Heart Engram drop rates compared
 | Category  | Drop Rates |
