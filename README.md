@@ -51,6 +51,8 @@ Finally, the dataset has the most chests opened in the blooming, while the amoun
 
 ## Analysis & Insights <a name="Analysis"></a>
 
+### At a glance
+
 - Overall, 69.95% of the time when you open a chest, you get nothing but glimmer.
 - Overall, pale heart engrams drop at a 9.1% chance.
 - Overall, gunsmith engrams are almost double the drop rate of pale heart engrams, at 17.07%.
