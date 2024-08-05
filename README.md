@@ -145,7 +145,7 @@ It seems to drop the most often from HVT and encounter chests, but those numbers
 | Overthrow Level 4  | 5.0%  |
 | Overthrow Level 5  |  0.0%  |
 
-I have a sneaking suspicion that the more mods you get, the less likely it is to get more mods. Maybe getting all of them means you don't get the drop again, which can be seen in how the chances keep dropping per overthrow level (OL4 is the outlier?). It can also be seen that HVT chests have the highest chance to drop mods. 
+I have a sneaking suspicion that the more mods you get, the less likely it is to get more mods. Maybe getting all of them means you don't get any mods to drop if you would've gotten one, which can be seen in how the chances keep dropping per overthrow level (OL4 is the outlier?). It can also be seen that HVT chests have the highest chance to drop mods. 
 
 ## Postscript <a name="Postscript"></a>
 
