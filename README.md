@@ -105,7 +105,7 @@ Generally, you'd have a 68.7% of getting an amount above the mean.
 | Overthrow Level 4  | 5.0%  |
 | Overthrow Level 5  | 6.593%  |
 
-As you can see, encounter chests have a much higher chance of dropping a pale heart engram, and HVT has the worst. The Impasse also seems like a place that is most likely to drop one, although it may be tied to the amount of encounters I did in the Impasse. Similar to Overthrow level 3, the droprates are twice that of overthrow level 4 - but it might be because more encounters were done in 3 than 4.
+As you can see, encounter chests have a much higher chance of dropping a pale heart engram, and HVT has the worst. The Impasse also seems like a place that is most likely to drop one, although it may be tied to the amount of encounters I did in the Impasse. Similar to Overthrow level 3, the drop rates are twice that of overthrow level 4 - but it might be because more encounters were done in 3 than 4.
 
 ### Class Item drop rates compared
 | Category  | Drop Rates |
