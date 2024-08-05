@@ -1,1 +1,1 @@
-This folder contains resource files like graphs. 
+This folder contains resource files like graphs and jupyter notebooks. 
