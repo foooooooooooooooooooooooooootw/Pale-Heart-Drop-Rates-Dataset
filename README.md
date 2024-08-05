@@ -42,3 +42,6 @@ Analysis will be attached here.
 To note, since there has been <a href="https://www.bungie.net/7/en/News/article/twid-07-25-2024">an announcement</a> that drop rates from chests are going to be reduced, a separate dataset will be created post August patch. 
 
 I also intend to create a dataset that includes all class item perk combinations in order to check if the rolls are weighted, as well as perk/frame combinations for ergo sum to see if those are weighted as well. 
+
+On 5 August's commit, I added about 200 entries, hitting 1000 rows. I also realized I made a terrible mistake as my gunsmith engrams were full, meaning I did not get any for about 200 entries. At least gunsmith engrams are not pale heart related, so I think it's not an issue. On the older dataset, the percentage of a gunsmith engram dropping was about 17.07%.
+
