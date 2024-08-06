@@ -17,7 +17,7 @@
 | Variable  | Details |
 | ------------- | ------------- |
 | Glimmer  | The amount of in game glimmer currency obtained from opening the chest. A numeric variable which I believe is discrete. These values are after applying a 65% glimmer boost from the ghost mod. One thing to note is that I believe there is some sort of internal rounding because manually multiplying the base values by 1.65x gives a slightly different number. |
-| PHE  | Short for "Pale Heart Engram". A type of drop that can be obtained by opening a chest only on the Pale Heart. Originally binary, one time two of them dropped from the same chest. You might exclude that entry to turn it binary.  |
+| PHE  | Short for "Pale Heart Engram". A type of drop that can be obtained by opening a chest only on the Pale Heart. Binary.  |
 | GE  | Short for "Gunsmith Engram".  A type of drop that can be obtained by opening a chest but also drops everywhere in the system. This field might be influenced by drops obtained not on the pale heart.|
 | CI  | Short for "Class Item". It refers to the exotic class items (Solipsism, Relativism, Stoicism). A binary field where a 1 denotes a drop.  |
 | Mod  | Whether a mod that can be used on the traveler was obtained. A binary field where a 1 denotes a drop.  |
