@@ -7,7 +7,9 @@
 1. [Dataset Information](#Dataset)
 2. [Exploratory Data Analysis](#Exploration)
 3. [Analysis & Insights](#Analysis)
-4. [Postscript](#Postscript)
+    1. [Pre-August 7th](#analysis1)
+    2. [Post-August 7th](#analysis2)
+5. [Postscript](#Postscript)
 
 ## Dataset <a name="Dataset"></a>
 
@@ -50,6 +52,8 @@ Finally, the dataset has the most chests opened in the blooming, while the amoun
 
 
 ## Analysis & Insights <a name="Analysis"></a>
+
+## Pre-August 7th patch <a name="analysis1"></a>
 
 ### At a glance
 
@@ -151,6 +155,9 @@ It seems to drop the most often from HVT and encounter chests, but those numbers
 | Overthrow Level 5  |  0.0%  |
 
 I have a sneaking suspicion that the more mods you get, the less likely it is to get more mods. Maybe getting all of them means you don't get any mods to drop if you would've gotten one, which can be seen in how the chances keep dropping per overthrow level (OL4 is the outlier?). It can also be seen that HVT chests have the highest chance to drop mods. 
+
+## Post-August 7th patch <a name="analysis2"></a>
+To be continued-
 
 ## Postscript <a name="Postscript"></a>
 
