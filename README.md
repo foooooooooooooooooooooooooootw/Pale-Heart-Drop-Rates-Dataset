@@ -92,7 +92,7 @@ Generally, you'd have a 68.7% of getting an amount above the mean.
 ### Pale Heart Engram drop rates compared
 | Category  | Drop Rates |
 | ------------- | ------------- |
-| Overall | 9.1% |
+| Overall | 9.2% |
 |  |  |
 | World Chests  | 8.676% |
 | Encounter Chests  | 15.385%  |
