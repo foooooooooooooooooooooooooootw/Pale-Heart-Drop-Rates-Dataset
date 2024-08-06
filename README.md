@@ -93,6 +93,7 @@ Generally, you'd have a 68.7% of getting an amount above the mean.
 | Category  | Drop Rates |
 | ------------- | ------------- |
 | Overall | 9.1% |
+|  |  |
 | World Chests  | 8.676% |
 | Encounter Chests  | 15.385%  |
 | HVT Chests  |  7.018% |
@@ -113,6 +114,7 @@ As you can see, encounter chests have a much higher chance of dropping a pale he
 | Category  | Drop Rates |
 | ------------- | ------------- |
 | Overall | 2.6% |
+|  |  |
 | World Chests  | 2.511% |
 | Encounter Chests  | 3.077%  |
 | HVT Chests  |  3.509% |
@@ -133,6 +135,7 @@ It seems to drop the most often from HVT and encounter chests, but those numbers
 | Category  | Drop Rates |
 | ------------- | ------------- |
 | Overall | 5.1% |
+|  |  |
 | World Chests  | 3.539% |
 | Encounter Chests  | 13.846%  |
 | HVT Chests  |  19.298% |
