@@ -44,17 +44,24 @@ The dataset is heavily skewed towards world chests, which is expected since worl
 
 The dataset is also skewed towards the left for overthrow levels.
 
-<img title="chest distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/level%20distribution.png">
+<img title="overthrow distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/level%20distribution.png">
 
 Finally, the dataset has the most chests opened in the blooming, while the amount of chests in the landing and impasse are about the same.
 
-<img title="chest distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/area%20distribution.png">
+<img title="area distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/area%20distribution.png">
 
+### PHDRS.csv
+
+Similar to the above dataset, this dataset is skewed left for overthrow levels and most stigmata are picked up in the blooming.
+
+<img title="overthrow distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/stigmata%20level%20distribution.png">
+<img title="overthrow distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/stigma%20area%20distribution.png">
 
 ## Analysis & Insights <a name="Analysis"></a>
 
 ## Pre-August 7th patch <a name="analysis1"></a>
 
+### PHDRC.csv
 ### At a glance
 
 - Overall, 69.95% of the time when you open a chest, you get nothing but glimmer.
@@ -155,6 +162,69 @@ It seems to drop the most often from HVT and encounter chests, but those numbers
 | Overthrow Level 5  |  0.0%  |
 
 I have a sneaking suspicion that the more mods you get, the less likely it is to get more mods. Maybe getting all of them means you don't get any mods to drop if you would've gotten one, which can be seen in how the chances keep dropping per overthrow level (OL4 is the outlier?). It can also be seen that HVT chests have the highest chance to drop mods. 
+
+### PHDRS.csv
+### At a glance
+- Overall, 97.37% of the time when you pick up a stigma, you get nothing but glimmer.
+- Overall, chances of getting a mod from stigmata are 2.63% (about as rare as a class item?).
+- The Impasse seems to have a higher expected value of glimmer as compared to the other areas.
+
+### Glimmer Comparison
+- The median is 745
+- The mode is 910
+- The mean is 822
+
+Overall, these are the glimmer drop rates:
+
+| Glimmer Amount | Drop Rates |
+| ------------- | ------------- |
+| 910 | 32.17% |
+| 745 | 31.95% |
+| 580 | 15.09% |
+| 1075 | 14.55% |
+| 415 | 3.61% |
+| 1240 | 2.63% |
+
+### Glimmer Comparison by Area
+
+### The Landing
+| Glimmer Amount | Drop Rates |
+| ------------- | ------------- |
+| 745 | 34.09% |
+| 910 | 30.91% |
+| 580 | 16.36% |
+| 1075 | 14.55% |
+| 415 | 2.27% |
+| 1240 | 1.82% |
+
+Expected Value = <ins>818.54</ins>
+
+
+### The Blooming
+| Glimmer Amount | Drop Rates |
+| ------------- | ------------- |
+| 910 | 33.54% |
+| 745 | 31.31% |
+| 580 | 15.15% |
+| 1075 | 13.54% |
+| 415 | 4.04% |
+| 1240 | 2.42% |
+
+Expected Value = <ins>818.67</ins>
+
+### The Impasse
+| Glimmer Amount | Drop Rates |
+| ------------- | ------------- |
+| 745 | 31.16% |
+| 910 | 30.15% |
+| 1075 | 17.09% |
+| 580 | 13.57% |
+| 415 | 4.02% |
+| 1240 | 4.02% |
+
+Expected Value = <ins>835.46</ins>
+
+As you can see, the expected value of the Landing and the Blooming are within 0.13 glimmer of each other, while the Impasse has about 17 more glimmer than the other two. Perhaps farming glimmer from stigmata in the Impasse is more efficient.
 
 ## Post-August 7th patch <a name="analysis2"></a>
 To be continued-
