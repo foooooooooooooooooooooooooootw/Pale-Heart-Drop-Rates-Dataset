@@ -17,10 +17,10 @@
 ## Actionable Intel <a name="Takeaways"></a>
 ### Exotic Class Item
 - Overall, Drop rates for exotic class items have been halved - from 2.6% to 1.36%.
-- Although HVTs used to have the highest droprate for exotic class items, I got 0 exotic class items from HVT after opening 59 chests. Assuming I get one at 60 this would drop it to 1.6% chance.
+- Although HVTs used to have the highest droprate for exotic class items at 3.5%, I got 0 exotic class items from HVT after opening 59 chests. Assuming I get one at 60 this would drop it to 1.6% chance, which is less than half.
 - So far, by my numbers, the highest chance to get an exotic class item is at Overthrow level 3, from an encounter, at The Landing.
 - Drop rates have been destroyed completely, just do dual destiny instead unless you're farming ergo sum.
-- It seems that perks for the exotic class item ARE weighted, with the most common perks being 3-4x more likely to appear than the rarest ones.
+- It seems that perks for the exotic class item <ins>ARE weighted</ins>, with the most common perks being 3-4x more likely to appear than the rarest ones.
 - For Hunters, the most common perk in column 1 is Spirit of the Dragon (17.9%), while the rarest is Spirit of Galanor (5.1%).
 - For Hunters, the most common perk in column 2 is Spirit of the Synthoceps (20.5%), while the rarest is Spirit of the Liar (5.1%).
 
