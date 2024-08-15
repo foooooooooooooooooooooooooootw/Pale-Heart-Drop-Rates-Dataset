@@ -24,6 +24,16 @@
 - For Hunters, the most common perk in column 1 is Spirit of the Dragon (17.9%), while the rarest is Spirit of Galanor (5.1%).
 - For Hunters, the most common perk in column 2 is Spirit of the Synthoceps (20.5%), while the rarest is Spirit of the Liar (5.1%).
 
+### Pale Heart Engram
+- Overall, Pale Heart Engrams drop at about 8.1%, which is 1% less than before the 7 August patch. This might be unintentional or within margin of error.
+- The best chests to farm these are encounter chests, which drop at 21.2%, as opposed to the world chest drop rate of 6.8%.
+- The best place to farm these are the Impasse, at 8.7%
+  
+### Pale Heart Mods
+- Overall mod drop rates are at 3.9%, which is 1.2% less than before the 7 August patch.
+- The best chests to farm mods are HVTs or Triage chests, which drop at 7.8%.
+- The best place to farm these are at The Landing (5.4%).
+- 
 ## Dataset <a name="Dataset"></a>
 
 <p> There are two datasets, both comma seperated values (csv) files. PHDRC.csv consists of 8 columns/variables and outlines drops for chests opened in the pale heart. PHDRS.csv consists of 4 columns/variables and outlines drops for stigmata of the witness. The dataset should be skewed towards earlier overthrow levels simply because it always starts from 1. It is encoded in UTF-8. </p>
@@ -68,7 +78,9 @@
 
 For the newer dataset, I tried to make it as balanced as possible, balancing the areas where chests are opened and trying to open a ratio of world chests to encounter chests based on their overthrow progress value (a world chest is worth 25 while triage is worth 250 and encounters are worth 450, so there should be 18 world chests to encounter chests). 
 
-Every single chest and stigmata that were opened in the 3 areas was recorded. I only started analysis on chest datasets when they had hit about 1000 data points. 
+Every single chest and stigmata that were opened in the 3 areas was recorded. I only started analysis on chest datasets when they had hit about 1000 data points. Every class item at a certain point onwards was also recorded.
+
+Chest types are segregated by the point value gained in overthrow, which might hint at underlying drop rates.
 
 ## Exploratory Data Analysis <a name="Exploration"></a>
 ### PHDRC.csv
@@ -261,7 +273,14 @@ Expected Value = <ins>835.46</ins>
 As you can see, the expected value of the Landing and the Blooming are within 0.13 glimmer of each other, while the Impasse has about 17 more glimmer than the other two. Perhaps farming glimmer from stigmata in the Impasse is more efficient.
 
 ## Post-August 7th patch <a name="analysis2"></a>
-To be continued-
+### At a glance
+- Overall, 67.73% of the time when you open a chest, you get nothing but glimmer - or 71.65% if compared to pre-patch numbers where legendary drops were not included.
+- Overall, pale heart engrams drop at a 8.1% chance.
+- Overall, gunsmith engrams are almost double the drop rate of pale heart engrams, at 16.04%.
+- Overall, class items drop at about 1.36% chance.
+- Overall, there is a 3.9% chance of getting a mod.
+
+
 
 ## Postscript <a name="Postscript"></a>
 
