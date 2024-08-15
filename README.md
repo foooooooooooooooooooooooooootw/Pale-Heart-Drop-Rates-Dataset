@@ -33,7 +33,7 @@
 - Overall mod drop rates are at 3.9%, which is 1.2% less than before the 7 August patch.
 - The best chests to farm mods are HVTs or Triage chests, which drop at 7.8%.
 - The best place to farm these are at The Landing (5.4%).
-- 
+  
 ## Dataset <a name="Dataset"></a>
 
 <p> There are two datasets, both comma seperated values (csv) files. PHDRC.csv consists of 8 columns/variables and outlines drops for chests opened in the pale heart. PHDRS.csv consists of 4 columns/variables and outlines drops for stigmata of the witness. The dataset should be skewed towards earlier overthrow levels simply because it always starts from 1. It is encoded in UTF-8. </p>
@@ -282,7 +282,7 @@ As you can see, the expected value of the Landing and the Blooming are within 0.
 
 
 
-## Postscript <a name="Postscript"></a>
+## Postscript & Declarations <a name="Postscript"></a>
 
 To note, since there has been <a href="https://www.bungie.net/7/en/News/article/twid-07-25-2024">an announcement</a> that drop rates from chests are going to be reduced, a separate dataset will be created post August patch. 
 
@@ -290,5 +290,7 @@ I also intend to create a dataset that includes all class item perk combinations
 
 On 5 August's commit, I added about 200 entries, hitting 1000 rows. I also realized I made a terrible mistake as my gunsmith engrams were full, meaning I did not get any for about 200 entries. At least gunsmith engrams are not pale heart related, so I think it's not an issue. On the older dataset, the percentage of a gunsmith engram dropping was about 17.07%. My preliminary investigation also showed no correlation between gunsmith engrams and the rest of the columns, so for now I will forget about them.
 
-Another thing I realized - there is a bug where there is no rank up banner or reputation gauge for ghost, which coincidentally gives a pale heart engram. This might explain why sometimes I got more than 1 pale heart engram, or a pale heart engram from a stigma. I will correct for this issue in the newer version of the dataset.
+Another thing I realized - there is a bug where there is no rank up banner or reputation gauge for ghost, which coincidentally gives a pale heart engram. This might explain why sometimes I got more than 1 pale heart engram, or a pale heart engram from a stigma. I will correct for this issue in the newer version of the dataset.\
+
+I declare I have no conflict of interest to note in making this dataset and analysis, and have received no funding whatsoever from any party. 
 
