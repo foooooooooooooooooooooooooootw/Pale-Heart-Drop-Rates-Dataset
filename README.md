@@ -15,6 +15,9 @@
 
 
 ## Actionable Intel <a name="Takeaways"></a>
+### General
+- Overall, all drop rates have decreased and chances of receiving nothing but glimmer has increased.
+
 ### Exotic Class Item
 - Overall, Drop rates for exotic class items have been halved - from 2.6% to 1.36%.
 - Although HVTs used to have the highest droprate for exotic class items at 3.5%, I got 0 exotic class items from HVT after opening 59 chests. Assuming I get one at 60 this would drop it to 1.6% chance, which is less than half.
@@ -31,7 +34,7 @@
   
 ### Pale Heart Mods
 - Overall mod drop rates are at 3.9%, which is 1.2% less than before the 7 August patch.
-- The best chests to farm mods are HVTs or Triage chests, which drop at 7.8%.
+- Not counting the final chest, the best chests to farm mods are HVTs or Triage chests, which drop at 7.8%.
 - The best place to farm these are at The Landing (5.4%).
   
 ## Dataset <a name="Dataset"></a>
@@ -39,6 +42,8 @@
 <p> There are two datasets, both comma seperated values (csv) files. PHDRC.csv consists of 8 columns/variables and outlines drops for chests opened in the pale heart. PHDRS.csv consists of 4 columns/variables and outlines drops for stigmata of the witness. The dataset should be skewed towards earlier overthrow levels simply because it always starts from 1. It is encoded in UTF-8. </p>
 
 <p> 2 more will be added after August 7th's patch. Although I think there should be no difference for the stigmata, I'll separate them anyway. The new dataset, PHDRC78.csv consists of more columns than its predecessor, now including legendary drops and the "subtype" of encounters and HVT. </p>
+
+### Pre-Patch
 
 ### PHDRC.csv
 | Variable  | Details |
@@ -60,6 +65,8 @@
 | OL  | Short for "Overthrow Level". The level of the overthrow event at which the chest was opened. Overthrow levels from 1-3 correspond to their in-game level, while OL 4 is the boss phase and OL 5 is the intermission period after the boss is defeated.  |
 | AO  | Short for "Area of Overthrow". There's only three which correspond to the in game areas.  |
 
+### Post-Patch
+
 ### PHDRC78.csv
 | Variable  | Details |
 | ------------- | ------------- |
@@ -73,6 +80,9 @@
 | Subtype  | The subtype of encounter or name of HVT. Subtypes of encounters are like "Stitching" or "Offering". Not all encounters are named. |
 | OL  | Short for "Overthrow Level". The level of the overthrow event at which the chest was opened. Overthrow levels from 1-3 correspond to their in-game level, while OL 4 is the boss phase and OL 5 is the intermission period after the boss is defeated.  |
 | AO  | Short for "Area of Overthrow". There's only three which correspond to the in game areas.  |
+
+### PHDRS78.csv
+Same as PHRDS.csv above.
 
 ## Methodology <a name="Methodology"></a>
 
@@ -102,6 +112,21 @@ Similar to the above dataset, this dataset is skewed left for overthrow levels a
 
 <img title="overthrow distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/stigmata%20level%20distribution.png">
 <img title="overthrow distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/stigma%20area%20distribution.png">
+
+### PHDRC78.csv
+The dataset is still heavily skewed towards world chests but with more of the other types of chests.
+
+<img title="chest distribution2" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/chest%20distribution78.png">
+
+This dataset is more bimodal for overthrow levels, peaking at 1 & 4.
+
+<img title="overthrow distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/level%20distribution78.png">
+
+Finally, the dataset has more or less the same amount of chests opened in all three areas, though the Impasse has the most.
+
+<img title="area distribution" src="https://github.com/foooooooooooooooooooooooooootw/Pale-Heart-Drop-Rates-Dataset/blob/main/res/area%20distribution78.png">
+
+
 
 ## Analysis & Insights <a name="Analysis"></a>
 
