@@ -16,7 +16,7 @@
 
 ## Actionable Intel <a name="Takeaways"></a>
 ### General
-- Overall, all drop rates have decreased and chances of receiving nothing but glimmer has increased.
+- Overall, all drop rates have decreased and chances of receiving nothing but glimmer has increased (69.95% to 71.65%).
 
 ### Exotic Class Item
 - Overall, Drop rates for exotic class items have been halved - from 2.6% to 1.36%.
